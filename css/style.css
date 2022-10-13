@@ -56,11 +56,18 @@
 
 /* Info Panel */
 .info-panel {
-    background-color: white;
+    
     padding: 30px;
     margin-top: -120px;
-    border-radius: 12px;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 36px;
+    background: rgba(77, 51, 193, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: inset 8px 8px 1px #3c40c262,
+                inset -8px -8px 1px #767dff2f;
+    color: #fff;
+    font-weight: 1000;
 }
 
 .info-panel h4 {
@@ -73,8 +80,9 @@
 .info-panel p {
     font-size: 14px;
     font-weight: lighter;
-    color: #acacac;
+    
 }
+
 
 
 
