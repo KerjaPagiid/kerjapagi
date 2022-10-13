@@ -181,6 +181,10 @@
 }
 
 .action {
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    transform: translateY(120px);
     margin-top: -20em;
     margin-left: 5em;
     background: none;
