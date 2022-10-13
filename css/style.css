@@ -183,8 +183,8 @@
 .action {
     position: absolute;
     z-index: 10;
-    left: 10%;
-    transform: translateY(120px);
+    left: 5%;
+    transform: translateY(130px);
     margin-top: -20em;
     margin-left: 5em;
     background: none;
