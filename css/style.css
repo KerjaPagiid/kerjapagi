@@ -188,7 +188,9 @@
     margin-top: -20em;
     margin-left: 5em;
     background: none;
+
 }
+
 /* RESPONSIVE */
 @media (min-width: 992px) {
     .navbar {
@@ -228,9 +230,11 @@
     }
 
     .action {
+        position: relative;
+        left: 30%;
+        transform: translateY(-10px);
         font-size: 2em;
-        margin-left: 20em;
-        margin-bottom: -200px;
+         
     }
 
     .workingspace {
@@ -241,7 +245,7 @@
         position: absolute;
         min-width: 100vw;
         right: 5px;
-        top: 165%;
+        top: 155%;
     }
 
     .testimonial p {
