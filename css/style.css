@@ -250,6 +250,7 @@
     }
 
     .action {
+        margin-bottom: -100px;
         left: 43%;
     }
 
@@ -262,7 +263,7 @@
         z-index: -1;
         min-width: 100vw;
         left: -10px;
-        top: 165%;
+        top: 170%;
     }
 
     .testi {
