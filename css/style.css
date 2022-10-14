@@ -129,13 +129,18 @@
 
 /* Testimonial */
 .testi {
+    position: relative;
     min-width: 100vw;
+    height: 100%;
     padding: 20px;
     background-color: #0B63DC;
     margin-top: 130px;
     color: #ddd;
 }
 
+.testimonial {
+    flex-direction: column;
+}
 
 .testimonial p {
     font-size: 1.4em;
@@ -181,14 +186,29 @@
 }
 
 .action {
-    position: absolute;
-    z-index: 10;
-    left: 2%;
-    transform: translateY(145px);
-    margin-top: -20em;
-    margin-left: 5em;
+    position: relative;
+    left: 30%;
+    top: -300px;
+    z-index: 10;    
     background: none;
 
+}
+
+.icons {
+    color: #fff;
+    font-size: 2em;
+    border: 2px solid #Fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icons:hover {
+    background-color: #8321ce;
+}
+
+.copyright {
+    font-size: 2em;
+    
 }
 
 /* RESPONSIVE */
@@ -230,11 +250,7 @@
     }
 
     .action {
-        position: relative;
-        left: 30%;
-        transform: translateY(-10px);
-        font-size: 2em;
-         
+        left: 43%;
     }
 
     .workingspace {
@@ -243,9 +259,14 @@
 
     .waveTesti {
         position: absolute;
+        z-index: -1;
         min-width: 100vw;
-        right: 5px;
-        top: 155%;
+        left: -10px;
+        top: 165%;
+    }
+
+    .testi {
+        width: 100%;
     }
 
     .testimonial p {
